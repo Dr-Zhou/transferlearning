@@ -50,7 +50,8 @@ function [acc,acc_ite,A] = BDA(X_src,Y_src,X_tar,Y_tar,options)
     kernel_type = options.kernel_type;
     gamma = options.gamma;
     T = options.T;
-
+    mode = options.mode;
+    
     X = [X_src',X_tar'];
 	X = X*diag(sparse(1./sqrt(sum(X.^2))));
 	[m,n] = size(X);
