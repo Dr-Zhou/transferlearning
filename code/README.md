@@ -154,6 +154,7 @@ Testing **dataset** can be found [here](https://github.com/jindongwang/transferl
 	- [Tensorflow](https://github.com/rfelixmg/frwgan-eccv18)
 - **MSTN** (Moving Semantic Transfer Network, ICML-18) [55]
 	- [Tensorflow](https://github.com/Mid-Push/Moving-Semantic-Transfer-Network)
+        - [Pytorch](https://github.com/EasonApolo/mstn)
 - **SAN** (Partial Transfer Learning With Selective Adversarial Networks, CVPR-18) [56]
 	- [Caffe, Pytorch](https://github.com/thuml/SAN)
 - **M-ADDA** (Metric-based Adversarial Discriminative Domain Adaptation, ICML-18 workshop) [57]
